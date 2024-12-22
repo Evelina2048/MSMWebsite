@@ -74,3 +74,7 @@ button:focus-visible {
   justify-content: center;  /* Horizontally centers the content */
   height: 100vh;  /* Full viewport height for vertical centering */
 }
+
+.submit {
+  display: flex;
+}

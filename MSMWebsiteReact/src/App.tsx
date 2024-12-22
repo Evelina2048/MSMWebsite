@@ -4,10 +4,11 @@
 // import './App.css'
 
 import Header from './Header.jsx'
+import Submit from './Submit.jsx'
 function App() {
 
   return (
-      <Header></Header>
+      <><Header></Header><Submit></Submit></>
   );
   // const [count, setCount] = useState(0)
 
