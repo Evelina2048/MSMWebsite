@@ -5,10 +5,11 @@
 
 import Header from './Header.jsx'
 import Submit from './Submit.jsx'
+import MultiSelectDropdown from './MultiSelectDropdown.jsx'
 function App() {
 
   return (
-      <><Header></Header><Submit></Submit></>
+      <><><Header></Header><Submit></Submit></><MultiSelectDropdown></MultiSelectDropdown></>
   );
   // const [count, setCount] = useState(0)
 
