@@ -69,12 +69,18 @@ button:focus-visible {
 
 /* App.css */
 
+/* <3  */
+
 .header {
   display: flex;
-  justify-content: center;  /* Horizontally centers the content */
+  justify-content: center;  /* Horizontally centers the stuff */
   height: 100vh;  /* Full viewport height for vertical centering */
 }
 
 .submit {
+  display: flex;
+}
+
+.multiSelectDropdown {
   display: flex;
 }
