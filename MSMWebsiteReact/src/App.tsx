@@ -2,14 +2,35 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
+import Select from 'react-select';
 
 import Header from './Header.jsx'
 import Submit from './Submit.jsx'
 import MultiSelectDropdown from './MultiSelectDropdown.jsx'
+
+
+// const options = [
+//   { value: 'chocolate', label: 'Chocolate' },
+//   { value: 'strawberry', label: 'Strawberry' },
+//   { value: 'vanilla', label: 'Vanilla' }
+// ]
+
+//import Header from './Header copy.jsx'
 function App() {
 
   return (
-      <><><Header></Header><Submit></Submit></><MultiSelectDropdown></MultiSelectDropdown></>
+      <>
+      <>
+
+      <Header></Header>
+      <MultiSelectDropdown></MultiSelectDropdown>
+      <Submit></Submit>
+
+      </>
+      </>
+
+      //<><><Header></Header><Submit></Submit></></>
+      //<MultiSelectDropdown />
   );
   // const [count, setCount] = useState(0)
 
