@@ -81,7 +81,30 @@ button:focus-visible {
   display: flex;
 } */
 
+/*
 .multiSelectDropdown {
   display: flex;
   justify-self: left;
+  width: 50ch
+}
+*/
+
+/* .submitButton {
+  padding: 100px 200px;
+  height: 10px;
+} */
+
+.multiSelectDropdown {
+  width: 100ch;
+  display: flex;                /* Arrange children (dropdown and button) side by side */
+  align-items: center;          /* Vertically align items to the center */
+  gap: 10px;                    /* Space between the dropdown and button */
+}
+
+.submitButton {
+  width: 100px;                 /* Set a specific width for the button (shorter) */
+  height: 40px;                 /* Adjust the button height */
+  background-color: #4CAF50;    /* Background color */
+  color: white;                 /* Text color */
+  cursor: pointer;             /* Change cursor on hover */
 }

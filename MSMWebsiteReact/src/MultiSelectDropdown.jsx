@@ -2,35 +2,45 @@
 import React, { useState } from "react";
 import Select from "react-select";
 
+import HandleSelectedOptions from './HandleSelectedOptions.jsx'
+
 const options = [
     { value: "plant", label: "Plant" },
     { value: "cold", label: "Cold" },
     { value: "air", label: "Air" },
 ];
 
-function MultiSelectDropdown() {
+const getSelectedLabels = (selectedOptions) => {
+    // Check if selectedOptions is an array to avoid errors
+    if (!Array.isArray(selectedOptions)) return [];
+    return selectedOptions.map(option => option.label);
+};
 
+function MultiSelectDropdown() {
     const [selectedOptions, setSelectedOptions] = useState([]); //setSelectedOptions defined here
+    const [showHandleOptions, setShowHandleOptions] = useState(false);
+
     const handleChange = (selectedOption) => {
         setSelectedOptions(selectedOption);
     };
     const submit = () => {
-        //console.log(selectedOptions);
-        const selectedLabels = selectedOptions.map(option => option.label);
-        console.log(selectedLabels);
+        //const selectedLabels = selectedOptions.map(option => option.label);
+        <HandleSelectedOptions></HandleSelectedOptions>
+        setShowHandleOptions(true)
+
     }
 
     return (
         <div className="multiSelectDropdown">
-        {/* <h5>Multi select dropdown</h5> */}
-        {/* Dropdown */}
         <Select
                 options= {options} //{/* options to be in dropdown */}
                 value= {selectedOptions} //{/* selected options in dropdown is value of selectedOptions */}
                 onChange= {handleChange}
                 isMulti = {true} //{/*to determine if multiselect*/}
         />
-        <button type="button" onClick={submit}>Test</button>
+        <button type="submitButton" onClick={submit}>Submit</button>
+        {showHandleOptions && <HandleSelectedOptions selectedOptions={selectedOptions} />}
+
         </div>
     );
 }
