@@ -98,7 +98,7 @@ button:focus-visible {
   width: 50%;
   display: flex;              /*  Arrange children (dropdown and button) side by side */
   /* display: inline; */
-  align-items:flex-end;          /* Vertically align items to the center */
+  align-items:flex-end;          /* Vertically align items to the center. Is how the following components will align */
   gap: 10px;                    /* Space between the dropdown and button
 }
 
