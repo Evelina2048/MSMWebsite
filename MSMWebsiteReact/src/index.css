@@ -95,16 +95,19 @@ button:focus-visible {
 } */
 
 .multiSelectDropdown {
-  width: 100ch;
-  display: flex;                /* Arrange children (dropdown and button) side by side */
-  align-items: center;          /* Vertically align items to the center */
-  gap: 10px;                    /* Space between the dropdown and button */
+  width: 50%;
+  display: flex;              /*  Arrange children (dropdown and button) side by side */
+  /* display: inline; */
+  align-items:flex-end;          /* Vertically align items to the center */
+  gap: 10px;                    /* Space between the dropdown and button
 }
 
 .submitButton {
-  width: 100px;                 /* Set a specific width for the button (shorter) */
+  /* width: 100px;                /* Set a specific width for the button (shorter) */
   height: 40px;                 /* Adjust the button height */
-  background-color: #4CAF50;    /* Background color */
-  color: white;                 /* Text color */
+  /* background-color: #4CAF50;    Background color */
+  /* color: white;                 /* Text color */
   cursor: pointer;             /* Change cursor on hover */
+  /* align-items: flex-end; */
+  /* display: inline; */
 }
