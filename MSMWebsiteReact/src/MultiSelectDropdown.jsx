@@ -27,10 +27,10 @@ function MultiSelectDropdown() {
         //const selectedLabels = selectedOptions.map(option => option.label);
         <HandleSelectedOptions></HandleSelectedOptions>
         setShowHandleOptions(true)
-
     }
 
     return (
+        <div className= "dropdownButtonImages">
         <div className="multiSelectDropdown">
         <Select
                 options= {options} //{/* options to be in dropdown */}
@@ -39,6 +39,7 @@ function MultiSelectDropdown() {
                 isMulti = {true} //{/*to determine if multiselect*/}
         />
         <button type="submitButton" onClick={submit}>Submit</button>
+        </div>
         {showHandleOptions && <HandleSelectedOptions selectedOptions={selectedOptions} />}
 
         </div>

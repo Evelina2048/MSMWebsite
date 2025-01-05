@@ -96,10 +96,15 @@ button:focus-visible {
 
 .multiSelectDropdown {
   width: 50%;
-  display: flex;              /*  Arrange children (dropdown and button) side by side */
+  /* display: flex;              /*  Arrange children (dropdown and button) side by side */
   /* display: inline; */
   align-items:flex-end;          /* Vertically align items to the center. Is how the following components will align */
-  gap: 10px;                    /* Space between the dropdown and button
+  display: flex;
+
+  flex-direction:row;
+  /* justify-content: right; */
+  /* flex-direction: column; */
+  gap: 10px;                    /* Space between the dropdown and button */
 }
 
 .submitButton {
@@ -108,6 +113,30 @@ button:focus-visible {
   /* background-color: #4CAF50;    Background color */
   /* color: white;                 /* Text color */
   cursor: pointer;             /* Change cursor on hover */
+  /* align-items: flex-end;
   /* align-items: flex-end; */
-  /* display: inline; */
+  /* display:list-item; */
+  /* display:flex;
+  flexDirection: column */
+  /* align-items: flex-end; */
+  /* d/isplay: block; */
+  /* align-items:stretch; */
+}
+
+.normEntbrat img{
+  display: block; /* Ensure the image is block-level */
+  /* margin: 0 auto; /* Center the image horizontally */
+  height: 100px; /* Set your desired height */
+  width: 100px;
+}
+
+.normEntbrat {
+  /* display: block;
+  flex-direction: column; /* Stack items vertically */
+  /* align-items: center; Center items horizontally */
+  display: flex !important; /* Force block behavior */
+  flex-direction: column;
+  margin-top: 20px; /* Add spacing */
+  /* width: 100%; /* Ensure it spans the full width */
+  clear: both; /* Ensures no float-related issues */
 }
