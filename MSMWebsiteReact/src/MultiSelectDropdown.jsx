@@ -5,7 +5,7 @@ import Select from "react-select";
 import HandleSelectedOptions from './HandleSelectedOptions.jsx'
 
 const options = [
-    { value: "plant", label: "Plant" },
+    { value: "plant", label: "Plant Island" },
     { value: "cold", label: "Cold" },
     { value: "air", label: "Air" },
 ];

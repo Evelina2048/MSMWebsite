@@ -139,4 +139,5 @@ button:focus-visible {
   margin-top: 20px; /* Add spacing */
   /* width: 100%; /* Ensure it spans the full width */
   clear: both; /* Ensures no float-related issues */
+  gap: 100px;
 }
