@@ -8,6 +8,7 @@ const options = [
     { value: "plant", label: "Plant Island" },
     { value: "cold", label: "Cold" },
     { value: "air", label: "Air" },
+    { value: "plant(Element)", label: "Plant (Element)" }
 ];
 
 const getSelectedLabels = (selectedOptions) => {
