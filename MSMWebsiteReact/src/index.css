@@ -141,3 +141,35 @@ button:focus-visible {
   clear: both; /* Ensures no float-related issues */
   gap: 100px;
 }
+
+.secondPicture {
+  /* display: block; */
+  display: flex !important;
+  /*display: flex; /* Force block behavior */
+  /*flex-direction: row;
+  /*margin-top: 20px; /* Add spacing */
+  /* width: 100%; /* Ensure it spans the full width */
+  /*clear: both; /* Ensures no float-related issues */
+  /* gap: 100px; */
+  height: 100px; /* Set your desired height */
+  width: 100px;
+}
+
+.plusSign {
+  margin-top: 0px;
+  display: flex;
+  /*justify-content: center; /* Center horizontally */
+  align-items: center;   /* Center vertically */
+  /*height: 100vh; */
+}
+
+.equalSign {
+  display: flex; /* Force block behavior */
+  flex-direction: row;
+  align-items: center;
+}
+
+.allImageEquation {
+  display: flex; /* Force block behavior */
+  flex-direction: row;
+}
