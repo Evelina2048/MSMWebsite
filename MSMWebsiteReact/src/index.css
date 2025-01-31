@@ -173,3 +173,18 @@ button:focus-visible {
   display: flex; /* Force block behavior */
   flex-direction: row;
 }
+
+.island {
+  display: inline;
+  height: 100px;
+  width: auto;
+  align-items: center;   /* Center vertically */
+  flex-direction: row;
+}
+
+.island img{
+  margin-top: 20px;
+  height: 100px;
+  flex-direction: row;
+  width: auto;
+}
