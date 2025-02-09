@@ -33,7 +33,7 @@
     }
   },
   "normMammott": {
-    "src": "images/NormMammott.webp",
+    "src": "/images/NormMammott.webp",
     "alt": "Normal Mammott",
     "attributes": [],
     "Islands": {
@@ -42,7 +42,7 @@
     }
   },
   "normMaw": {
-    "src": "images/NormMaw.webp",
+    "src": "/images/NormMaw.webp",
     "alt": "Normal Maw",
     "attributes": ["Snow (Element)"],
     "Islands": {
@@ -50,57 +50,49 @@
     }
   },
   "normOaktopus": {
-    "src": "images/NormOaktopus.webp",
+    "src": "/images/NormOaktopus.webp",
     "alt": "Normal Oaktopus",
     "attributes": ["idk"],
     "Islands": {
       "PlantIsland": ["idk"]
     }
   },
-  "rareFwog": {
-    "src": "images/RareFwog.webp",
-    "alt": "Rare Fwog",
-    "attributes": ["Plant Island", "Earth (Element)", "Water (Element)", "Rare Fwog", "Rare"],
-    "Islands": {
-      "PlantIsland": [["images/NormNoggin.webp", "images/NormToeJammer.webp"]],
-      "AirIsland": [["images/NormTRox.webp", "images/NormCongle.webp"]]
-    }
-  },
   "rareOaktopus": {
-      "src": "images/RareOaktopus.webp",
-      "alt": "Rare Oaktopus",
-      "attributes": ["Plant Island", "Plant (Element)", "Water (Element)", "Rare Oaktopus", "Rare"],
+        "src": "/images/RareOaktopus.webp",
+        "alt": "Rare Oaktopus",
+        "attributes": ["Plant Island", "Plant (Element)", "Water (Element)", "Rare Oaktopus", "Rare"],
+        "Islands": {
+          "PlantIsland": [["images/NormPotbelly.webp", "images/NormToeJammer.webp"]],
+          "ColdIsland": [["images/NormPotbelly.webp", "images/NormToeJammer.webp"]]
+        }
+      },
+      "rareMaw": {
+        "src": "/images/RareMaw.webp",
+        "alt": "Rare Maw",
+        "attributes": ["Plant Island", "Cold Island", "Rare", "Water (Element)", "Snow (Element)"],
+        "Islands": {
+          "PlantIsland": [["images/NormToeJammer.webp", "images/NormMammott.webp"]],
+          "ColdIsland": [["images/NormToeJammer.webp", "images/NormMammott.webp"]]
+        }
+      },
+    "rareToeJammer": {
+      "src": "/images/RareToeJammer.webp",
+      "alt": "Rare Toe Jammer",
+      "attributes": ["Plant Island", "Cold Island", "Rare", "Water (Element)"],
       "Islands": {
-        "PlantIsland": [["images/NormPotbelly.webp", "images/NormToeJammer.webp"]],
-        "ColdIsland": [["images/NormPotbelly.webp", "images/NormToeJammer.webp"]]
+        "PlantIsland": [["images/NormBowgart.webp", "images/NormTRox.webp"]],
+        "ColdIsland": []
       }
     },
-    "rareMaw": {
-      "src": "images/RareMaw.webp",
-      "alt": "Rare Maw",
-      "attributes": ["Plant Island", "Cold Island", "Rare", "Water (Element)", "Snow (Element)"],
-      "Islands": {
-        "PlantIsland": [["images/NormToeJammer.webp", "images/NormMammott.webp"]],
-        "ColdIsland": [["images/NormToeJammer.webp", "images/NormMammott.webp"]]
-      }
-    },
-  "rareToeJammer": {
-    "src": "images/RareToeJammer.webp",
-    "alt": "Rare Toe Jammer",
-    "attributes": ["Plant Island", "Cold Island", "Rare", "Water (Element)"],
-    "Islands": {
-      "PlantIsland": [["images/NormBowgart.webp", "images/NormTRox.webp"]], 
-      "ColdIsland": []
-    }
-  },
     "PlantIsland": {
-    "src": "images/PlantIsland.webp",
-    "alt": "Plant Island Wordmark",
-    "attributes": ["PlantIsland"]
-  },
-  "ColdIsland": {
-    "src": "images/ColdIsland.webp",
-    "alt": "Cold Island Wordmark",
-    "attributes": ["ColdIsland"]
-  }
+      "src": "/images/PlantIsland.webp",
+      "alt": "Plant Island Wordmark",
+      "attributes": ["PlantIsland"]
+    },
+    "ColdIsland": {
+      "src": "/images/ColdIsland.webp",
+      "alt": "Cold Island Wordmark",
+      "attributes": ["ColdIsland"]
+    }
 }
+
