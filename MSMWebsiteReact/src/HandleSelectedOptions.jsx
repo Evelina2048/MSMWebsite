@@ -90,9 +90,9 @@ function HandleSelectedOptions({ selectedOptions }) {
                 //     }
 
                 // })
-                imagesToDisplay.filter((image) => (
-                    console.log("2/9")));
-                    //!image.attributes.includes(option.label)));
+                imagesToDisplay = imagesToDisplay.filter((image) => {
+                    return image.attributes.includes(option.label);
+                });
                 }
         }
 
